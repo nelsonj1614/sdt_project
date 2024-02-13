@@ -21,3 +21,5 @@ st.plotly_chart(scatter_plot)
 
 # st.write()
 # st.checkbox()
+
+print(pd.version)
