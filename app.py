@@ -1,12 +1,10 @@
-import pandas as pd 
-import streamlit as st 
-import plotly.express as px 
+import streamlit as st
+import pandas as pd
+import plotly.express as px
 
-df = pd.read_csv()
+df = pd.read_csv('Books_Data_Clean.csv')
 
-st.header('This is my fabulous header!',divider='violet')
+st.title('SDT Project')
+st.header('Book Statistics')
 
-# st.write()
-# st.checkbox()
-
-print(pd.version)
+st.dataframe(df)
